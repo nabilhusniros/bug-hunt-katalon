@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User_Authentication_and_Appointment_Flow,Chrome 120.0.0.0,,,26-12-2023 11:56:16,26-12-2023 11:56:34,17.151s,FAILED
+,,,,,,,
+Test Cases/Login_ValidCredentials,Chrome 120.0.0.0,,,26-12-2023 11:56:17,26-12-2023 11:56:26,9.569s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-12-2023 11:56:17,26-12-2023 11:56:19,2.192s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,26-12-2023 11:56:19,26-12-2023 11:56:22,3.263s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/MakeAppointment_Button""))",Chrome 120.0.0.0,,,26-12-2023 11:56:22,26-12-2023 11:56:23,0.811s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Username_Field""), ""John Doe"")",Chrome 120.0.0.0,,,26-12-2023 11:56:23,26-12-2023 11:56:24,0.635s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Password_Field""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,26-12-2023 11:56:24,26-12-2023 11:56:24,0.386s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,26-12-2023 11:56:24,26-12-2023 11:56:25,0.925s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/MakeAppointment_Text_After_Login""))",Chrome 120.0.0.0,,,26-12-2023 11:56:25,26-12-2023 11:56:26,0.539s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/MakeAppointment_Text_After_Login""))",Chrome 120.0.0.0,,,26-12-2023 11:56:26,26-12-2023 11:56:26,0.309s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,26-12-2023 11:56:26,26-12-2023 11:56:26,0.206s,PASSED
+,,,,,,,
+Test Cases/Verify_MakeAppointment,Chrome 120.0.0.0,,,26-12-2023 11:56:26,26-12-2023 11:56:34,7.368s,FAILED
+"callTestCase(findTestCase(""Login_ValidCredentials""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,26-12-2023 11:56:26,26-12-2023 11:56:34,7.190s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Checkbox_Hospital_Readmission""))",Chrome 120.0.0.0,,,26-12-2023 11:56:34,26-12-2023 11:56:34,0.060s,FAILED
