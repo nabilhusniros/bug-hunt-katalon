@@ -17,26 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login_ValidCredentials'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementClickable(findTestObject('null'), 
-    10)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Medicare_RadioButton'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/VisitDate_31_December_2023'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/Comment_TextArea'), 'Able to add a text')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_BookAppointment'))
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/appointment.php#summary')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Appointment_Confirmation_After_BookAppoitnment'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/Appointment_Confirmation_After_BookAppoitnment'))
-
