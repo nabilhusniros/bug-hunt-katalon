@@ -19,7 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login_ValidCredentials'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Checkbox_Hospital_Readmission'))
+WebUI.waitForElementClickable(findTestObject('null'), 
+    10)
+
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Medicare_RadioButton'))
 

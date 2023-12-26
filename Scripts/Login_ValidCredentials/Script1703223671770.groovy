@@ -33,5 +33,3 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/MakeA
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/MakeAppointment_Text_After_Login'))
 
-WebUI.closeBrowser()
-
