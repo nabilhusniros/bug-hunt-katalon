@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_visit_date</name>
+   <name>txtPassword</name>
    <tag></tag>
-   <elementGuidId>5f8db3b6-03e8-49b8-aca2-f06d225b204c</elementGuidId>
+   <elementGuidId>593f1103-91c5-43af-af55-35ff232a40cc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='txt_visit_date']</value>
+         <key>CSS</key>
+         <value>#txt-password</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#txt_visit_date</value>
+         <key>XPATH</key>
+         <value>//input[@id='txt-password']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4d739e6b-3cc2-4cd9-a16c-c647d4dc18d4</webElementGuid>
+      <webElementGuid>2b76b7aa-1b0e-4576-9939-3ea97b41a6b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>271bb89d-47a0-4321-b9b5-c90e76542e49</webElementGuid>
+      <value>password</value>
+      <webElementGuid>c1620dfc-22a1-4bea-9d0c-bcab0d81e128</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,31 +38,31 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>7e8b680a-a064-42ed-b272-6518c878e845</webElementGuid>
+      <webElementGuid>60311456-e8f8-460a-b04d-bced35972897</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>txt_visit_date</value>
-      <webElementGuid>148869ab-a41b-44d3-bf94-6d8aaa42bc3a</webElementGuid>
+      <value>txt-password</value>
+      <webElementGuid>3431dca8-6bd1-4572-813a-407f83b11fb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>visit_date</value>
-      <webElementGuid>8e43d135-d841-4fef-9724-96904d3edbde</webElementGuid>
+      <value>password</value>
+      <webElementGuid>101d6383-8c93-41c3-8068-a34dd36ae22d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>dd/mm/yyyy</value>
-      <webElementGuid>b39d1659-be4b-4430-98de-cc76746c20b1</webElementGuid>
+      <value>Password</value>
+      <webElementGuid>e4e96378-15e2-42ae-90da-590352366809</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,46 +70,46 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>52929b8d-e10c-4c2a-8d84-bc773fda2173</webElementGuid>
+      <webElementGuid>31cdde98-93ef-4afc-ae20-a2ba1c115cd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;txt_visit_date&quot;)</value>
-      <webElementGuid>f450350e-3803-4ec5-be7d-87e8dd1fc2d6</webElementGuid>
+      <value>id(&quot;txt-password&quot;)</value>
+      <webElementGuid>f3b7fab5-912d-4ea0-8430-a4e0af748982</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='txt_visit_date']</value>
-      <webElementGuid>2dc45cb6-613e-4fba-8778-b4b02ea1dc52</webElementGuid>
+      <value>//input[@id='txt-password']</value>
+      <webElementGuid>663076d6-f511-4253-ac98-ba5ddeb7335b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[4]/div/div/input</value>
-      <webElementGuid>879859b2-dd2d-4f8d-83d7-532dc84b97f9</webElementGuid>
+      <value>//section[@id='login']/div/div/div[2]/form/div[3]/div/input</value>
+      <webElementGuid>39fd310a-2361-4740-b56a-114125c24e2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/input</value>
-      <webElementGuid>10b5844b-617a-4e29-bd0a-374ec883c14b</webElementGuid>
+      <value>//div[3]/div/input</value>
+      <webElementGuid>3b618afe-164c-4f74-8c08-d0353aea70d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'txt_visit_date' and @name = 'visit_date' and @placeholder = 'dd/mm/yyyy']</value>
-      <webElementGuid>a61af022-3352-4b6f-821e-1f2aba75e40c</webElementGuid>
+      <value>//input[@type = 'password' and @id = 'txt-password' and @name = 'password' and @placeholder = 'Password']</value>
+      <webElementGuid>b63236fa-15e9-480a-9387-c058ca0e1006</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

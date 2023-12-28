@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checkbox_Hospital_Readmission</name>
+   <name>cbReadMission</name>
    <tag></tag>
    <elementGuidId>2136ff3b-bf69-4c51-96b8-4911f74ca2e4</elementGuidId>
    <selectorCollection>

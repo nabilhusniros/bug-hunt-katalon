@@ -19,21 +19,39 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('CURA Healthcare Service/Login_ValidCredentials'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service/Checkbox_Hospital_Readmission'))
+for (def n : (0..2)) {
+    WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service/ddHealthCareCenter'), 1)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Medicare_RadioButton'))
+    WebUI.click(findTestObject('Page_CURA Healthcare Service/cbReadMission'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_visit_date'))
+    if (n == 0) {
+        WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/cbMedicare'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/VisitDate_31_December_2023'))
+        WebUI.delay(1)
+    } else if (n == 1) {
+        WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/cbMedicaid'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/Comment_TextArea'), 'Able to add a text')
+        WebUI.delay(1)
+    } else {
+        WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/cbNone'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_BookAppointment'))
+        WebUI.delay(1)
+    }
+    
+    WebUI.setText(findTestObject('Page_CURA Healthcare Service/txtVisitDate'), '30/12/2023')
 
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/appointment.php#summary')
+    WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/Comment_TextArea'), 'Able to add a text')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Appointment_Confirmation_After_BookAppoitnment'))
+    WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/btnBookAppointment'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/Appointment_Confirmation_After_BookAppoitnment'))
+    WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/appointment.php#summary')
+
+    WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2AppointmentConfirmation'))
+
+    WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h2AppointmentConfirmation'))
+
+    WebUI.click(findTestObject('Page_CURA Healthcare Service/btnGoToHomePage'))
+}
+
+WebUI.closeBrowser()
 
