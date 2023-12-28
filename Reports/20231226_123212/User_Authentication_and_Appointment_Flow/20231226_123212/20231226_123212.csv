@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User_Authentication_and_Appointment_Flow,Chrome 120.0.0.0,,,26-12-2023 12:32:15,26-12-2023 12:32:32,16.358s,FAILED
+,,,,,,,
+Test Cases/Login_ValidCredentials,Chrome 120.0.0.0,,,26-12-2023 12:32:15,26-12-2023 12:32:24,8.565s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,26-12-2023 12:32:16,26-12-2023 12:32:18,1.943s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 120.0.0.0,,,26-12-2023 12:32:18,26-12-2023 12:32:21,2.837s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/MakeAppointment_Button""))",Chrome 120.0.0.0,,,26-12-2023 12:32:21,26-12-2023 12:32:21,0.751s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Username_Field""), ""John Doe"")",Chrome 120.0.0.0,,,26-12-2023 12:32:21,26-12-2023 12:32:22,0.635s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/Password_Field""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,26-12-2023 12:32:22,26-12-2023 12:32:22,0.367s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 120.0.0.0,,,26-12-2023 12:32:22,26-12-2023 12:32:23,0.882s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/MakeAppointment_Text_After_Login""))",Chrome 120.0.0.0,,,26-12-2023 12:32:23,26-12-2023 12:32:24,0.531s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/MakeAppointment_Text_After_Login""))",Chrome 120.0.0.0,,,26-12-2023 12:32:24,26-12-2023 12:32:24,0.303s,PASSED
+,,,,,,,
+Test Cases/Verify_MakeAppointment,Chrome 120.0.0.0,,,26-12-2023 12:32:24,26-12-2023 12:32:32,7.603s,FAILED
+"callTestCase(findTestCase(""Login_ValidCredentials""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,26-12-2023 12:32:24,26-12-2023 12:32:31,7.125s,PASSED
+"waitForElementClickable(findTestObject(""null""), 10)",Chrome 120.0.0.0,,,26-12-2023 12:32:31,26-12-2023 12:32:32,0.374s,FAILED

@@ -15,14 +15,14 @@
       <guid>b7525dd5-55cc-4090-a27b-864519a2fd14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login_ValidCredentials</testCaseId>
+      <testCaseId>Test Cases/CURA Healthcare Service/Login_ValidCredentials</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>7cb46a7a-200e-4724-91fa-f3492c466a1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verify_MakeAppointment</testCaseId>
+      <testCaseId>Test Cases/CURA Healthcare Service/Verify_MakeAppointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
