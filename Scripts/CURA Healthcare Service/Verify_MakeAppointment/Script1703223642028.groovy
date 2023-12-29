@@ -20,8 +20,18 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('CURA Healthcare Service/Login_ValidCredentials'), [:], FailureHandling.STOP_ON_FAILURE)
 
 for (def n : (0..2)) {
-    WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service/ddHealthCareCenter'), 1)
-
+    if (n == 0) {
+        WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service/ddHealthCareCenter'), 0)
+    }
+    
+    else if (n == 1) {
+        WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service/ddHealthCareCenter'), 1)
+    }
+    
+    else {
+        WebUI.selectOptionByIndex(findTestObject('Page_CURA Healthcare Service/ddHealthCareCenter'), 2)
+    }
+    
     WebUI.click(findTestObject('Page_CURA Healthcare Service/cbReadMission'))
 
     if (n == 0) {
