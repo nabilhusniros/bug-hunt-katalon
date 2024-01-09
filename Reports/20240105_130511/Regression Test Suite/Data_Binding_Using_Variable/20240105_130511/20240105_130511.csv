@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_Binding_Using_Variable,Chrome 120.0.0.0,,,05-01-2024 13:05:15,05-01-2024 13:05:59,44.056s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Working_With_TestCase_Variable,Chrome 120.0.0.0,,,05-01-2024 13:05:15,05-01-2024 13:05:23,8.591s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,05-01-2024 13:05:15,05-01-2024 13:05:17,1.750s,PASSED
+expectedTitle = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,05-01-2024 13:05:17,05-01-2024 13:05:17,0.002s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,05-01-2024 13:05:17,05-01-2024 13:05:20,2.926s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnMakeAppointment""))",Chrome 120.0.0.0,,,05-01-2024 13:05:20,05-01-2024 13:05:21,0.761s,PASSED
+for (def index : (0..0)),Chrome 120.0.0.0,,,05-01-2024 13:05:21,05-01-2024 13:05:23,2.608s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 13:05:23,05-01-2024 13:05:23,0.132s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Working_With_TestCase_Variable,Chrome 120.0.0.0,,,05-01-2024 13:05:23,05-01-2024 13:05:30,7.018s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,05-01-2024 13:05:23,05-01-2024 13:05:24,0.858s,PASSED
+expectedTitle = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,05-01-2024 13:05:24,05-01-2024 13:05:24,0.001s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,05-01-2024 13:05:24,05-01-2024 13:05:27,2.811s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnMakeAppointment""))",Chrome 120.0.0.0,,,05-01-2024 13:05:27,05-01-2024 13:05:28,0.713s,PASSED
+for (def index : (0..0)),Chrome 120.0.0.0,,,05-01-2024 13:05:28,05-01-2024 13:05:30,2.479s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 13:05:30,05-01-2024 13:05:30,0.135s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Working_With_TestCase_Variable,Chrome 120.0.0.0,,,05-01-2024 13:05:30,05-01-2024 13:05:37,7.015s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,05-01-2024 13:05:30,05-01-2024 13:05:31,0.832s,PASSED
+expectedTitle = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,05-01-2024 13:05:31,05-01-2024 13:05:31,0.001s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,05-01-2024 13:05:31,05-01-2024 13:05:34,2.781s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnMakeAppointment""))",Chrome 120.0.0.0,,,05-01-2024 13:05:34,05-01-2024 13:05:35,0.689s,PASSED
+for (def index : (0..0)),Chrome 120.0.0.0,,,05-01-2024 13:05:35,05-01-2024 13:05:37,2.555s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 13:05:37,05-01-2024 13:05:37,0.137s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Working_With_TestCase_Variable,Chrome 120.0.0.0,,,05-01-2024 13:05:38,05-01-2024 13:05:45,7.143s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,05-01-2024 13:05:38,05-01-2024 13:05:38,0.844s,PASSED
+expectedTitle = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,05-01-2024 13:05:38,05-01-2024 13:05:38,0.000s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,05-01-2024 13:05:38,05-01-2024 13:05:41,2.889s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnMakeAppointment""))",Chrome 120.0.0.0,,,05-01-2024 13:05:41,05-01-2024 13:05:42,0.723s,PASSED
+for (def index : (0..0)),Chrome 120.0.0.0,,,05-01-2024 13:05:42,05-01-2024 13:05:45,2.534s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 13:05:45,05-01-2024 13:05:45,0.136s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Working_With_TestCase_Variable,Chrome 120.0.0.0,,,05-01-2024 13:05:45,05-01-2024 13:05:52,7.011s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,05-01-2024 13:05:45,05-01-2024 13:05:45,0.772s,PASSED
+expectedTitle = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,05-01-2024 13:05:45,05-01-2024 13:05:45,0.001s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,05-01-2024 13:05:45,05-01-2024 13:05:48,3.020s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnMakeAppointment""))",Chrome 120.0.0.0,,,05-01-2024 13:05:48,05-01-2024 13:05:49,0.669s,PASSED
+for (def index : (0..0)),Chrome 120.0.0.0,,,05-01-2024 13:05:49,05-01-2024 13:05:52,2.397s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 13:05:52,05-01-2024 13:05:52,0.134s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Working_With_TestCase_Variable,Chrome 120.0.0.0,,,05-01-2024 13:05:52,05-01-2024 13:05:59,6.898s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,05-01-2024 13:05:52,05-01-2024 13:05:53,0.924s,PASSED
+expectedTitle = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 120.0.0.0,,,05-01-2024 13:05:53,05-01-2024 13:05:53,0.000s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,05-01-2024 13:05:53,05-01-2024 13:05:55,2.789s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/btnMakeAppointment""))",Chrome 120.0.0.0,,,05-01-2024 13:05:55,05-01-2024 13:05:56,0.701s,PASSED
+for (def index : (0..0)),Chrome 120.0.0.0,,,05-01-2024 13:05:56,05-01-2024 13:05:58,2.327s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,05-01-2024 13:05:58,05-01-2024 13:05:59,0.137s,PASSED

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User_Authentication_and_Appointment_Flow,Chrome 120.0.0.0,,,03-01-2024 11:53:53,03-01-2024 11:54:28,34.558s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Login_ValidCredentials,Chrome 120.0.0.0,,,03-01-2024 11:53:53,03-01-2024 11:54:03,9.430s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,03-01-2024 11:53:54,03-01-2024 11:53:56,2.046s,PASSED
+navigateToUrl(URL),Chrome 120.0.0.0,,,03-01-2024 11:53:56,03-01-2024 11:53:59,3.659s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/btnMakeAppointment""))",Chrome 120.0.0.0,,,03-01-2024 11:53:59,03-01-2024 11:54:00,0.775s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/txtUsername""), ""John Doe"")",Chrome 120.0.0.0,,,03-01-2024 11:54:00,03-01-2024 11:54:01,0.624s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/txtPassword""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 120.0.0.0,,,03-01-2024 11:54:01,03-01-2024 11:54:01,0.387s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/btnLogin""))",Chrome 120.0.0.0,,,03-01-2024 11:54:01,03-01-2024 11:54:02,0.892s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2MakeAppointment""))",Chrome 120.0.0.0,,,03-01-2024 11:54:02,03-01-2024 11:54:02,0.424s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2MakeAppointment""))",Chrome 120.0.0.0,,,03-01-2024 11:54:02,03-01-2024 11:54:03,0.313s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Verify_MakeAppointment,Chrome 120.0.0.0,,,03-01-2024 11:54:03,03-01-2024 11:54:28,24.921s,PASSED
+"callTestCase(findTestCase(""CURA Healthcare Service/Login_ValidCredentials""), [:], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,03-01-2024 11:54:03,03-01-2024 11:54:10,7.359s,PASSED
+for (def n : (0..2)),Chrome 120.0.0.0,,,03-01-2024 11:54:10,03-01-2024 11:54:28,17.161s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,03-01-2024 11:54:28,03-01-2024 11:54:28,0.181s,PASSED

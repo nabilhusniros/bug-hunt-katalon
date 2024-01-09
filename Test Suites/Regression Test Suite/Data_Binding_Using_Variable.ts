@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Data_Binding_Using_Variable</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>edfecdfa-4975-4ce7-b1d9-b99709b1d84a</testSuiteGuid>
+   <testCaseLink>
+      <guid>e7e2cd0b-bd21-44c5-8160-7fde34157d5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CURA Healthcare Service/Working_With_TestCase_Variable</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1041f680-6771-412a-8cf3-8e69747fb490</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Verify_Credentials_Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1041f680-6771-412a-8cf3-8e69747fb490</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>0b83c5f1-6886-4dd5-a48c-35270d2ad7f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1041f680-6771-412a-8cf3-8e69747fb490</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>607a58c6-6d43-49d8-9e73-1b2b81b11814</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User_Authentication_and_Appointment_Flow,Edge Chromium 120,,,03-01-2024 11:54:32,03-01-2024 11:55:07,35.218s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Login_ValidCredentials,Edge Chromium 120,,,03-01-2024 11:54:32,03-01-2024 11:54:42,9.915s,PASSED
+"openBrowser("""")",Edge Chromium 120,,,03-01-2024 11:54:32,03-01-2024 11:54:34,1.945s,PASSED
+navigateToUrl(URL),Edge Chromium 120,,,03-01-2024 11:54:34,03-01-2024 11:54:39,4.152s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/btnMakeAppointment""))",Edge Chromium 120,,,03-01-2024 11:54:39,03-01-2024 11:54:39,0.807s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/txtUsername""), ""John Doe"")",Edge Chromium 120,,,03-01-2024 11:54:39,03-01-2024 11:54:40,0.618s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/txtPassword""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 120,,,03-01-2024 11:54:40,03-01-2024 11:54:40,0.387s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/btnLogin""))",Edge Chromium 120,,,03-01-2024 11:54:40,03-01-2024 11:54:41,0.952s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2MakeAppointment""))",Edge Chromium 120,,,03-01-2024 11:54:41,03-01-2024 11:54:42,0.422s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2MakeAppointment""))",Edge Chromium 120,,,03-01-2024 11:54:42,03-01-2024 11:54:42,0.338s,PASSED
+,,,,,,,
+Test Cases/CURA Healthcare Service/Verify_MakeAppointment,Edge Chromium 120,,,03-01-2024 11:54:42,03-01-2024 11:55:07,25.126s,PASSED
+"callTestCase(findTestCase(""CURA Healthcare Service/Login_ValidCredentials""), [:], STOP_ON_FAILURE)",Edge Chromium 120,,,03-01-2024 11:54:42,03-01-2024 11:54:50,7.377s,PASSED
+for (def n : (0..2)),Edge Chromium 120,,,03-01-2024 11:54:50,03-01-2024 11:55:07,17.312s,PASSED
+closeBrowser(),Edge Chromium 120,,,03-01-2024 11:55:07,03-01-2024 11:55:07,0.277s,PASSED

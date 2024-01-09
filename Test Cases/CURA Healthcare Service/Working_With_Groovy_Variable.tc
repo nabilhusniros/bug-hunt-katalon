@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Automate Advanced Browser Features</name>
+   <name>Working_With_Groovy_Variable</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>180ac39c-2d4a-47a8-b23f-f94344a90202</testCaseGuid>
+   <testCaseGuid>bcf6e5f0-dc77-40dc-b7ce-208711da3365</testCaseGuid>
 </TestCaseEntity>
