@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnX</name>
+   <tag></tag>
+   <elementGuidId>ff255e64-f179-4b83-b87f-c0a54f9ad45c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.c17aqsi2.atm_9s_glywfm.x1ia5atz.atm_9s_1ulexfb__jx8car.dir.dir-ltr > div._1swasop > button.l1ovpqvx.atm_1y33qqm_1ggndnn_10saat9.atm_17zvjtw_zk357r_10saat9.atm_w3cb4q_il40rs_10saat9.c1b3fvnw.atm_1s_glywfm.atm_9s_1o8liyq.atm_5j_1ssbidh.atm_kd_idpfg4.atm_gi_16flvx1.atm_l8_1v6z61t.atm_7l_1u9drld.atm_9j_tlke0l.atm_tl_1gw4zv3.atm_2d_1kuelp3.atm_3f_6q8byr.atm_70_1n51njw.atm_uc_1dtz4sb.atm_kd_glywfm_1w3cfyq.atm_uc_x37zl0_1w3cfyq.atm_70_1snd6fg_1w3cfyq.atm_3f_glywfm_e4a3ld.atm_l8_idpfg4_e4a3ld.atm_gi_idpfg4_e4a3ld.atm_3f_glywfm_1r4qscq.atm_kd_glywfm_6y7yyg.atm_uc_glywfm_1w3cfyq_p88qr9.atm_kd_glywfm_18zk5v0.atm_uc_x37zl0_18zk5v0.atm_70_1snd6fg_18zk5v0.atm_3f_glywfm_6mgo84.atm_l8_idpfg4_6mgo84.atm_gi_idpfg4_6mgo84.atm_3f_glywfm_16p4kaz.atm_kd_glywfm_17yx6rv.atm_uc_glywfm_18zk5v0_p88qr9.atm_k4_1piyxwk_1o5j5ji.atm_9j_13gfvf7_1o5j5ji.atm_7l_jajhky_1o5j5ji.atm_2d_1v67ije_csw3t1.atm_tr_ffmgpj_csw3t1.atm_2d_1v67ije_1nos8r_uv4tnr.atm_uc_glywfm__p88qr9.dir.dir-ltr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[98]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9660d8ba-a781-4931-9afa-1235232a2943</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>e57af7b0-5f83-4375-a9cd-67f67da48b5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b717a651-436b-4359-b469-eb50b75a2efa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>l1ovpqvx atm_1y33qqm_1ggndnn_10saat9 atm_17zvjtw_zk357r_10saat9 atm_w3cb4q_il40rs_10saat9 c1b3fvnw atm_1s_glywfm atm_9s_1o8liyq atm_5j_1ssbidh atm_kd_idpfg4 atm_gi_16flvx1 atm_l8_1v6z61t atm_7l_1u9drld atm_9j_tlke0l atm_tl_1gw4zv3 atm_2d_1kuelp3 atm_3f_6q8byr atm_70_1n51njw atm_uc_1dtz4sb atm_kd_glywfm_1w3cfyq atm_uc_x37zl0_1w3cfyq atm_70_1snd6fg_1w3cfyq atm_3f_glywfm_e4a3ld atm_l8_idpfg4_e4a3ld atm_gi_idpfg4_e4a3ld atm_3f_glywfm_1r4qscq atm_kd_glywfm_6y7yyg atm_uc_glywfm_1w3cfyq_p88qr9 atm_kd_glywfm_18zk5v0 atm_uc_x37zl0_18zk5v0 atm_70_1snd6fg_18zk5v0 atm_3f_glywfm_6mgo84 atm_l8_idpfg4_6mgo84 atm_gi_idpfg4_6mgo84 atm_3f_glywfm_16p4kaz atm_kd_glywfm_17yx6rv atm_uc_glywfm_18zk5v0_p88qr9 atm_k4_1piyxwk_1o5j5ji atm_9j_13gfvf7_1o5j5ji atm_7l_jajhky_1o5j5ji atm_2d_1v67ije_csw3t1 atm_tr_ffmgpj_csw3t1 atm_2d_1v67ije_1nos8r_uv4tnr atm_uc_glywfm__p88qr9 dir dir-ltr</value>
+      <webElementGuid>a9e89f8b-6f0b-4d5d-be1f-4a6d776545b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;remTheme scrollbar-gutter js-focus-visible dir native v1oc6b3k vgnbcm1 v1agkal2 vqw89vp vlugpmm g5l85gq&quot;]/body[@class=&quot;with-new-header&quot;]/div[10]/div[1]/section[1]/div[@class=&quot;_1nispw4&quot;]/div[@class=&quot;p1psejvv atm_9s_1bgihbq dir dir-ltr&quot;]/div[@class=&quot;p1psejvv atm_9s_1bgihbq dir dir-ltr&quot;]/div[@class=&quot;_yoc0mbj&quot;]/div[@class=&quot;c17aqsi2 atm_9s_glywfm x1ia5atz atm_9s_1ulexfb__jx8car dir dir-ltr&quot;]/div[@class=&quot;_1swasop&quot;]/button[@class=&quot;l1ovpqvx atm_1y33qqm_1ggndnn_10saat9 atm_17zvjtw_zk357r_10saat9 atm_w3cb4q_il40rs_10saat9 c1b3fvnw atm_1s_glywfm atm_9s_1o8liyq atm_5j_1ssbidh atm_kd_idpfg4 atm_gi_16flvx1 atm_l8_1v6z61t atm_7l_1u9drld atm_9j_tlke0l atm_tl_1gw4zv3 atm_2d_1kuelp3 atm_3f_6q8byr atm_70_1n51njw atm_uc_1dtz4sb atm_kd_glywfm_1w3cfyq atm_uc_x37zl0_1w3cfyq atm_70_1snd6fg_1w3cfyq atm_3f_glywfm_e4a3ld atm_l8_idpfg4_e4a3ld atm_gi_idpfg4_e4a3ld atm_3f_glywfm_1r4qscq atm_kd_glywfm_6y7yyg atm_uc_glywfm_1w3cfyq_p88qr9 atm_kd_glywfm_18zk5v0 atm_uc_x37zl0_18zk5v0 atm_70_1snd6fg_18zk5v0 atm_3f_glywfm_6mgo84 atm_l8_idpfg4_6mgo84 atm_gi_idpfg4_6mgo84 atm_3f_glywfm_16p4kaz atm_kd_glywfm_17yx6rv atm_uc_glywfm_18zk5v0_p88qr9 atm_k4_1piyxwk_1o5j5ji atm_9j_13gfvf7_1o5j5ji atm_7l_jajhky_1o5j5ji atm_2d_1v67ije_csw3t1 atm_tr_ffmgpj_csw3t1 atm_2d_1v67ije_1nos8r_uv4tnr atm_uc_glywfm__p88qr9 dir dir-ltr&quot;]</value>
+      <webElementGuid>83cb3d56-0050-4b04-b5fc-d140551c3ee6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[98]</value>
+      <webElementGuid>5777449c-440a-4a0a-b284-b25e7931c3c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/div/div[2]/div/div[4]/div/button</value>
+      <webElementGuid>8f1c7ec7-203c-42f6-a246-8b9d2e7fcc5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>f21be42e-9460-4220-a847-cd4d2dbab27e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

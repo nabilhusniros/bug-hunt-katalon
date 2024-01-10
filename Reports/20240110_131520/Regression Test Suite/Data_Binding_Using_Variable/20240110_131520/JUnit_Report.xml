@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data_Binding_Using_Variable" time="57.548" tests="4" failures="0" errors="0">
+   <testsuite name="Data_Binding_Using_Variable" tests="4" failures="0" errors="0" time="57.548" skipped="0" timestamp="10-01-2024T13:15:24" hostname="User - DESKTOP-N742MEB" id="Test Suites/Regression Test Suite/Data_Binding_Using_Variable">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\bug-hunt-katalon\\Reports\\20240110_131520\\Regression Test Suite\\Data_Binding_Using_Variable\\20240110_131520"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\bug-hunt-katalon\\Reports\\20240110_131520\\Regression Test Suite\\Data_Binding_Using_Variable\\20240110_131520\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - DESKTOP-N742MEB"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.2.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.104"/>
+         <property name="sessionId" value="eaa4817e91d5042a0a9e26517a22568f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Airbnb/Search_DataDriven" time="14.862" classname="Test Cases/Airbnb/Search_DataDriven" status="PASSED">
+         <system-out><![CDATA[10-01-2024T13:15:24 - [TEST_CASE][PASSED] - Test Cases/Airbnb/Search_DataDriven: Test Cases/Airbnb/Search_DataDriven
+
+10-01-2024T13:15:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T13:15:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T13:15:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T13:15:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T13:15:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:15:28 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnX")): Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Airbnb_HomePage/inputSearhDestination"), city): Text 'Labuan' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:15:32 - [MESSAGE][PASSED] - Text 'Labuan' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/divCheckIn")): Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker19")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker21")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnSearch")): Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Airbnb_Vacation Rental/h1Places")): Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:15:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Airbnb_Vacation Rental/h1Places"), 0): Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:15:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-01-2024T13:15:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:15:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T13:15:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Airbnb/Search_DataDriven" time="13.698" classname="Test Cases/Airbnb/Search_DataDriven" status="PASSED">
+         <system-out><![CDATA[10-01-2024T13:15:39 - [TEST_CASE][PASSED] - Test Cases/Airbnb/Search_DataDriven: Test Cases/Airbnb/Search_DataDriven
+
+10-01-2024T13:15:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T13:15:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T13:15:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T13:15:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T13:15:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:15:41 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnX")): Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:15:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Airbnb_HomePage/inputSearhDestination"), city): Text 'Tokyo' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:15:45 - [MESSAGE][PASSED] - Text 'Tokyo' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/divCheckIn")): Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:15:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker19")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:15:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:15:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker21")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:15:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnSearch")): Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Airbnb_Vacation Rental/h1Places")): Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:15:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:15:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Airbnb_Vacation Rental/h1Places"), 0): Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:15:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-01-2024T13:15:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:15:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T13:15:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Airbnb/Search_DataDriven" time="13.877" classname="Test Cases/Airbnb/Search_DataDriven" status="PASSED">
+         <system-out><![CDATA[10-01-2024T13:15:53 - [TEST_CASE][PASSED] - Test Cases/Airbnb/Search_DataDriven: Test Cases/Airbnb/Search_DataDriven
+
+10-01-2024T13:15:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T13:15:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T13:15:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T13:15:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T13:15:54 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:15:55 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnX")): Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:15:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Airbnb_HomePage/inputSearhDestination"), city): Text 'Kota Kinabalu' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:15:59 - [MESSAGE][PASSED] - Text 'Kota Kinabalu' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/divCheckIn")): Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker19")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker21")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:16:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:16:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnSearch")): Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:16:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:16:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Airbnb_Vacation Rental/h1Places")): Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:16:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Airbnb_Vacation Rental/h1Places"), 0): Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:16:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-01-2024T13:16:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:16:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T13:16:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Airbnb/Search_DataDriven" time="14.858" classname="Test Cases/Airbnb/Search_DataDriven" status="PASSED">
+         <system-out><![CDATA[10-01-2024T13:16:07 - [TEST_CASE][PASSED] - Test Cases/Airbnb/Search_DataDriven: Test Cases/Airbnb/Search_DataDriven
+
+10-01-2024T13:16:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+10-01-2024T13:16:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+10-01-2024T13:16:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+10-01-2024T13:16:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+10-01-2024T13:16:08 - [TEST_STEP][PASSED] - navigateToUrl("https://www.airbnb.com/"): Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:16:09 - [MESSAGE][PASSED] - Navigate to 'https://www.airbnb.com/' successfully
+
+10-01-2024T13:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnX")): Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnX' is clicked on
+
+10-01-2024T13:16:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Airbnb_HomePage/inputSearhDestination"), city): Text 'New York' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:16:13 - [MESSAGE][PASSED] - Text 'New York' is set on object 'Object Repository/Page_Airbnb_HomePage/inputSearhDestination'
+
+10-01-2024T13:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/divCheckIn")): Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/divCheckIn' is clicked on
+
+10-01-2024T13:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker19")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker19' is clicked on
+
+10-01-2024T13:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/datePicker21")): Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/datePicker21' is clicked on
+
+10-01-2024T13:16:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Airbnb_HomePage/btnSearch")): Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_HomePage/btnSearch' is clicked on
+
+10-01-2024T13:16:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Airbnb_Vacation Rental/h1Places")): Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is clicked on
+
+10-01-2024T13:16:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Airbnb_Vacation Rental/h1Places"), 0): Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:16:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+10-01-2024T13:16:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Airbnb_Vacation Rental/h1Places' is present
+
+10-01-2024T13:16:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+10-01-2024T13:16:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[10-01-2024T13:15:24 - [TEST_SUITE][PASSED] - Data_Binding_Using_Variable: Test Cases/Airbnb/Search_DataDriven]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

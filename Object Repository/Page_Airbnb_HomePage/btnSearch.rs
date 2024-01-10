@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnSearch</name>
+   <tag></tag>
+   <elementGuidId>94c1a443-358f-46a7-9fcd-1561fdc52c19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.l1h8x6z4.atm_k4_idpfg4.atm_lk_ftgil2.atm_ll_1y44olf.atm_uc_1kxliox.atm_uc_glywfm__p88qr9.l4jheou.atm_ud_o03ep1.dir.dir-ltr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;search-tabpanel&quot;]/div[1]/div[5]/div[1]/div[2]/button/span[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aa1fa4ab-44bd-44f1-81a1-4722a6b3c90b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>l1h8x6z4 atm_k4_idpfg4 atm_lk_ftgil2 atm_ll_1y44olf atm_uc_1kxliox atm_uc_glywfm__p88qr9 l4jheou atm_ud_o03ep1 dir dir-ltr</value>
+      <webElementGuid>1063292d-0885-4c77-b687-008b094cb3aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>065d3bb4-9b9f-4b32-8cf0-177d114c5896</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search-tabpanel&quot;)/div[@class=&quot;ir2ixub atm_9s_1txwivl atm_h_1h6ojuz atm_am_163v1yp atm_e2_1osqo2v atm_jb_idpfg4 atm_mj_1wugsn5 atm_1wn1q82_nxa32x dir dir-ltr&quot;]/div[@class=&quot;c111bvlt atm_9s_1txwivl atm_1eltean_1osqo2v c1gh7ier atm_am_1qhqiko dir dir-ltr&quot;]/div[@class=&quot;c1ddhymz atm_h_1h6ojuz atm_9s_1txwivl atm_gi_1n1ank9 atm_jb_idpfg4 atm_mk_h2mmj6 atm_vy_10bmcub cggll98 atm_am_1qhqiko dir dir-ltr&quot;]/div[@class=&quot;s15td0tv atm_am_12336oc atm_gz_yjp0fh atm_ll_rdoju8 atm_mk_h2mmj6 atm_wq_qfx8er dir dir-ltr&quot;]/button[@class=&quot;bhtghtc atm_1s_glywfm atm_26_1j28jx2 atm_3f_idpfg4 atm_9j_tlke0l atm_9s_1o8liyq atm_bx_1kw7nm4 atm_gi_idpfg4 atm_l8_idpfg4 atm_r3_1kw7nm4 atm_rd_glywfm atm_vb_1wugsn5 atm_kd_glywfm atm_2d_1wg69w8 atm_5j_1tcgj5g atm_7l_1hbpp16 atm_c8_8ycq01 atm_cs_qo5vgd atm_e2_fyhuej atm_g3_exct8b atm_j3_fyhuej atm_ks_15vqwwr atm_mk_h2mmj6 atm_uc_sgxu0i atm_vh_nkobfv atm_wq_idpfg4 atm_3f_glywfm_jo46a5 atm_l8_idpfg4_jo46a5 atm_gi_idpfg4_jo46a5 atm_3f_glywfm_1icshfk atm_kd_glywfm_19774hq atm_2d_12pj79__6ldadd atm_uc_glywfm__p88qr9 atm_26_2a2bt1_vmtskl atm_6i_idpfg4_vmtskl atm_92_1yyfdc7_vmtskl atm_fq_idpfg4_vmtskl atm_mk_stnw88_vmtskl atm_n3_idpfg4_vmtskl atm_tk_idpfg4_vmtskl atm_uc_1rfv3yc_vmtskl atm_vz_brmitn_vmtskl atm_wq_idpfg4_vmtskl atm_uc_glywfm_vmtskl_p88qr9 atm_70_1rtszzq_1w3cfyq atm_70_1rtszzq_18zk5v0 b11im28u atm_k4_idpfg4_vmtskl atm_k4_kb7nvz_1rqz0hn dir dir-ltr&quot;]/div[@class=&quot;c1nkokj4 atm_9s_116y0ak atm_l8_exct8b atm_mk_h2mmj6 atm_wq_kb7nvz dir dir-ltr&quot;]/div[@class=&quot;l1h8x6z4 atm_k4_idpfg4 atm_lk_ftgil2 atm_ll_1y44olf atm_uc_1kxliox atm_uc_glywfm__p88qr9 l4jheou atm_ud_o03ep1 dir dir-ltr&quot;]</value>
+      <webElementGuid>e74ad316-3513-4c46-a550-15a1c7e3acc0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='search-tabpanel']/div/div[5]/div/div[2]/button/div/div[2]</value>
+      <webElementGuid>829f0706-59c0-4a83-895e-02f01f982094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/div/div[2]</value>
+      <webElementGuid>66e47131-f936-4361-aae7-e417dd9434a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Search' or . = 'Search')]</value>
+      <webElementGuid>8d92da74-2d0d-41c2-b46b-d1259f7bbd1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

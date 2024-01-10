@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search_DataDriven</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>deb7a001-cf9d-4cc8-a1b3-68675f3b1f99</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e596f477-6696-468d-9443-c0c10f4c3af3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Kuala Lumpur'</defaultValue>
+      <description></description>
+      <id>e596f477-6696-468d-9443-c0c10f4c3af3</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>divCheckIn</name>
+   <tag></tag>
+   <elementGuidId>34dc29e1-b4ec-441b-b6e2-21cf3f626530</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.lmukvak.atm_c8_1l6y6xl.atm_g3_i7n6xh.atm_cs_qo5vgd.atm_fr_idpfg4.atm_le_yh40bf.dir.dir-ltr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='search-tabpanel']/div/div[3]/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>71d0bdb1-d064-41ef-b959-d7a0505bd64f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lmukvak atm_c8_1l6y6xl atm_g3_i7n6xh atm_cs_qo5vgd atm_fr_idpfg4 atm_le_yh40bf dir dir-ltr</value>
+      <webElementGuid>be6e18ce-dc85-4eda-b6f3-33265506f64d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Check in</value>
+      <webElementGuid>5d21bd41-50bb-4729-b28f-3788430cf0d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search-tabpanel&quot;)/div[@class=&quot;ir2ixub atm_9s_1txwivl atm_h_1h6ojuz atm_am_163v1yp atm_e2_1osqo2v atm_jb_idpfg4 atm_mj_1wugsn5 atm_1wn1q82_nxa32x dir dir-ltr&quot;]/div[@class=&quot;cwk1mic atm_9s_1txwivl atm_am_eqk4pz atm_jb_idpfg4 dir dir-ltr&quot;]/div[@class=&quot;c1ddhymz atm_am_16wc86f atm_h_1h6ojuz atm_9s_1txwivl atm_gi_1n1ank9 atm_jb_idpfg4 atm_mk_h2mmj6 atm_vy_10bmcub dir dir-ltr&quot;]/div[@class=&quot;b1spesa7 atm_1s_glywfm atm_26_1j28jx2 atm_3f_idpfg4 atm_7l_1kw7nm4 atm_9j_tlke0l atm_bx_1kw7nm4 atm_c8_1kw7nm4 atm_cs_1kw7nm4 atm_g3_1kw7nm4 atm_gi_idpfg4 atm_ks_ewfl5b atm_rd_glywfm atm_vb_1wugsn5 atm_kd_glywfm atm_9s_1ulexfb atm_am_qk3dho atm_l8_t94yts atm_r3_1e5hqsa atm_vy_idpfg4 atm_wq_kb7nvz atm_3f_glywfm_jo46a5 atm_l8_idpfg4_jo46a5 atm_gi_idpfg4_jo46a5 atm_3f_glywfm_1icshfk atm_kd_glywfm_19774hq atm_6h_1s2714j_vmtskl atm_66_nqa18y_vmtskl atm_4b_1egtlkw_vmtskl atm_92_1yyfdc7_vmtskl atm_9s_glywfm_vmtskl atm_e2_1vi7ecw_vmtskl atm_fq_idpfg4_vmtskl atm_h3_4h84z3_vmtskl atm_mk_stnw88_vmtskl atm_n3_idpfg4_vmtskl atm_tk_1ssbidh_vmtskl atm_wq_idpfg4_vmtskl atm_2a_1u8qnfj_9in345 atm_3f_okh77k_9in345 atm_5j_1vi7ecw_9in345 atm_6i_idpfg4_9in345 atm_92_1yyfdc7_9in345 atm_fq_idpfg4_9in345 atm_mk_stnw88_9in345 atm_n3_idpfg4_9in345 atm_tk_idpfg4_9in345 atm_wq_idpfg4_9in345 b1fbhdca atm_gi_eflcwz_9bj8xt atm_2d_1t7w313_9bj8xt atm_wq_cs5v99_1w3cfyq atm_9s_1ulexfb_9xuho3 atm_uc_ryfd4z_1tasb51 atm_4b_18pqv07_1tasb51 atm_70_8rjl4o_1tasb51 atm_gi_eflcwz_1tasb51 atm_uc_glywfm_1tasb51_p88qr9 atm_wq_cs5v99_18zk5v0 atm_9s_1ulexfb_fiqcvf atm_uc_ryfd4z_g9xbc8 atm_4b_18pqv07_g9xbc8 atm_70_8rjl4o_g9xbc8 atm_gi_eflcwz_g9xbc8 atm_uc_glywfm_g9xbc8_p88qr9 bc92ud4 atm_92_1yyfdc7_1rqz0hn atm_9s_1ulexfb_1rqz0hn atm_vy_1yysq1q_1rqz0hn atm_e2_1huphc_1rqz0hn atm_mk_stnw88_1rqz0hn atm_h3_idpfg4_1rqz0hn atm_fq_kgzxrn_1rqz0hn atm_tk_t94yts_1rqz0hn atm_wq_idpfg4_1rqz0hn atm_26_cipigq_1rqz0hn dir dir-ltr&quot;]/div[@class=&quot;c1sse431 atm_l8_srw7uq atm_ks_15vqwwr atm_mk_h2mmj6 atm_vv_1q9ccgz atm_vy_1osqo2v atm_wq_kb7nvz dir dir-ltr&quot;]/div[@class=&quot;lmukvak atm_c8_1l6y6xl atm_g3_i7n6xh atm_cs_qo5vgd atm_fr_idpfg4 atm_le_yh40bf dir dir-ltr&quot;]</value>
+      <webElementGuid>270ee137-ebe2-4940-95e7-3529c6fa4a93</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='search-tabpanel']/div/div[3]/div/div/div/div</value>
+      <webElementGuid>3ea91ee8-3eb3-47b2-b465-58b95bb7e4ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[3]/div/div/div/div</value>
+      <webElementGuid>c3e28bd9-9d68-424b-aac8-7e95aee66efc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Check in' or . = 'Check in')]</value>
+      <webElementGuid>da5c5c70-5bcf-4e8b-b8da-fb1e8658fba8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

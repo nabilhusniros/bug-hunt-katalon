@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_Binding_Using_Variable,Chrome 120.0.0.0,,,10-01-2024 13:15:24,10-01-2024 13:16:22,57.548s,PASSED
+,,,,,,,
+Test Cases/Airbnb/Search_DataDriven,Chrome 120.0.0.0,,,10-01-2024 13:15:24,10-01-2024 13:15:39,14.862s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,10-01-2024 13:15:25,10-01-2024 13:15:26,1.799s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 120.0.0.0,,,10-01-2024 13:15:26,10-01-2024 13:15:28,1.200s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnX""))",Chrome 120.0.0.0,,,10-01-2024 13:15:28,10-01-2024 13:15:30,2.646s,PASSED
+"setText(findTestObject(""Object Repository/Page_Airbnb_HomePage/inputSearhDestination""), city)",Chrome 120.0.0.0,,,10-01-2024 13:15:30,10-01-2024 13:15:32,1.442s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/divCheckIn""))",Chrome 120.0.0.0,,,10-01-2024 13:15:32,10-01-2024 13:15:33,1.251s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker19""))",Chrome 120.0.0.0,,,10-01-2024 13:15:33,10-01-2024 13:15:34,0.929s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker21""))",Chrome 120.0.0.0,,,10-01-2024 13:15:34,10-01-2024 13:15:35,0.901s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnSearch""))",Chrome 120.0.0.0,,,10-01-2024 13:15:35,10-01-2024 13:15:35,0.645s,PASSED
+"click(findTestObject(""Page_Airbnb_Vacation Rental/h1Places""))",Chrome 120.0.0.0,,,10-01-2024 13:15:35,10-01-2024 13:15:39,3.196s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Airbnb_Vacation Rental/h1Places""), 0)",Chrome 120.0.0.0,,,10-01-2024 13:15:39,10-01-2024 13:15:39,0.281s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,10-01-2024 13:15:39,10-01-2024 13:15:39,0.243s,PASSED
+,,,,,,,
+Test Cases/Airbnb/Search_DataDriven,Chrome 120.0.0.0,,,10-01-2024 13:15:39,10-01-2024 13:15:53,13.698s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,10-01-2024 13:15:39,10-01-2024 13:15:40,0.938s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 120.0.0.0,,,10-01-2024 13:15:40,10-01-2024 13:15:41,1.116s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnX""))",Chrome 120.0.0.0,,,10-01-2024 13:15:41,10-01-2024 13:15:43,2.154s,PASSED
+"setText(findTestObject(""Object Repository/Page_Airbnb_HomePage/inputSearhDestination""), city)",Chrome 120.0.0.0,,,10-01-2024 13:15:43,10-01-2024 13:15:45,1.425s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/divCheckIn""))",Chrome 120.0.0.0,,,10-01-2024 13:15:45,10-01-2024 13:15:46,1.350s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker19""))",Chrome 120.0.0.0,,,10-01-2024 13:15:46,10-01-2024 13:15:47,0.827s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker21""))",Chrome 120.0.0.0,,,10-01-2024 13:15:47,10-01-2024 13:15:48,1.013s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnSearch""))",Chrome 120.0.0.0,,,10-01-2024 13:15:48,10-01-2024 13:15:49,0.620s,PASSED
+"click(findTestObject(""Page_Airbnb_Vacation Rental/h1Places""))",Chrome 120.0.0.0,,,10-01-2024 13:15:49,10-01-2024 13:15:51,2.390s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Airbnb_Vacation Rental/h1Places""), 0)",Chrome 120.0.0.0,,,10-01-2024 13:15:51,10-01-2024 13:15:53,1.602s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,10-01-2024 13:15:53,10-01-2024 13:15:53,0.241s,PASSED
+,,,,,,,
+Test Cases/Airbnb/Search_DataDriven,Chrome 120.0.0.0,,,10-01-2024 13:15:53,10-01-2024 13:16:07,13.877s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,10-01-2024 13:15:53,10-01-2024 13:15:54,0.855s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 120.0.0.0,,,10-01-2024 13:15:54,10-01-2024 13:15:55,1.344s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnX""))",Chrome 120.0.0.0,,,10-01-2024 13:15:55,10-01-2024 13:15:57,2.467s,PASSED
+"setText(findTestObject(""Object Repository/Page_Airbnb_HomePage/inputSearhDestination""), city)",Chrome 120.0.0.0,,,10-01-2024 13:15:57,10-01-2024 13:15:59,1.475s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/divCheckIn""))",Chrome 120.0.0.0,,,10-01-2024 13:15:59,10-01-2024 13:16:00,1.229s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker19""))",Chrome 120.0.0.0,,,10-01-2024 13:16:00,10-01-2024 13:16:01,0.925s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker21""))",Chrome 120.0.0.0,,,10-01-2024 13:16:01,10-01-2024 13:16:02,0.920s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnSearch""))",Chrome 120.0.0.0,,,10-01-2024 13:16:02,10-01-2024 13:16:03,0.633s,PASSED
+"click(findTestObject(""Page_Airbnb_Vacation Rental/h1Places""))",Chrome 120.0.0.0,,,10-01-2024 13:16:03,10-01-2024 13:16:06,3.069s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Airbnb_Vacation Rental/h1Places""), 0)",Chrome 120.0.0.0,,,10-01-2024 13:16:06,10-01-2024 13:16:06,0.718s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,10-01-2024 13:16:06,10-01-2024 13:16:07,0.227s,PASSED
+,,,,,,,
+Test Cases/Airbnb/Search_DataDriven,Chrome 120.0.0.0,,,10-01-2024 13:16:07,10-01-2024 13:16:22,14.858s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,10-01-2024 13:16:07,10-01-2024 13:16:08,0.882s,PASSED
+"navigateToUrl(""https://www.airbnb.com/"")",Chrome 120.0.0.0,,,10-01-2024 13:16:08,10-01-2024 13:16:09,1.632s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnX""))",Chrome 120.0.0.0,,,10-01-2024 13:16:09,10-01-2024 13:16:12,2.381s,PASSED
+"setText(findTestObject(""Object Repository/Page_Airbnb_HomePage/inputSearhDestination""), city)",Chrome 120.0.0.0,,,10-01-2024 13:16:12,10-01-2024 13:16:13,1.456s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/divCheckIn""))",Chrome 120.0.0.0,,,10-01-2024 13:16:13,10-01-2024 13:16:15,1.576s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker19""))",Chrome 120.0.0.0,,,10-01-2024 13:16:15,10-01-2024 13:16:15,0.592s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/datePicker21""))",Chrome 120.0.0.0,,,10-01-2024 13:16:15,10-01-2024 13:16:16,1.017s,PASSED
+"click(findTestObject(""Object Repository/Page_Airbnb_HomePage/btnSearch""))",Chrome 120.0.0.0,,,10-01-2024 13:16:16,10-01-2024 13:16:17,0.636s,PASSED
+"click(findTestObject(""Page_Airbnb_Vacation Rental/h1Places""))",Chrome 120.0.0.0,,,10-01-2024 13:16:17,10-01-2024 13:16:21,4.152s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Airbnb_Vacation Rental/h1Places""), 0)",Chrome 120.0.0.0,,,10-01-2024 13:16:21,10-01-2024 13:16:21,0.274s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,10-01-2024 13:16:21,10-01-2024 13:16:22,0.244s,PASSED
