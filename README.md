@@ -1,6 +1,6 @@
-# My Portfolio Profile Sample Project: CURA Healthcare Service with Katalon Studio
+# My Portfolio Profile Sample Project with Katalon Studio
 
-This project demonstrates my skills in automation testing using Katalon Studio. Specifically applied to the healthcare domain. It features a script that automates the appointment booking process on the CURA healthcare service demo website, ensuring a seamless user experience.
+This project demonstrates my skills in automation testing using Katalon Studio. It features a script that automates service demo website, ensuring a seamless user experience.
 
 **Technologies Used:**
 
