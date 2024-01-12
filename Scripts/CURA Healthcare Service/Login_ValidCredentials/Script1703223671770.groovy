@@ -33,3 +33,5 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2Mak
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h2MakeAppointment'))
 
+WebUI.takeScreenshotAsCheckpoint('appointment_confirmation', FailureHandling.STOP_ON_FAILURE)
+
